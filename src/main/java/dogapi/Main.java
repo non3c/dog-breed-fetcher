@@ -24,7 +24,6 @@ public class Main {
      * returned by the fetcher
      */
     public static int getNumberOfSubBreeds(String breed, BreedFetcher breedFetcher) {
-        // return statement included so that the starter code can compile and run.
         try{
             return breedFetcher.getSubBreeds(breed).toArray().length;
         } catch(Exception e){
